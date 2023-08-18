@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="top">
+      <div>
+        <i class="fa-solid fa-cart-shopping"></i>
+        <label for="" id="count" class="hide"></label>
+        <a href="confirm.html"
+          ><i class="fa-solid fa-money-check-dollar" class="cash"></i
+        ></a>
+      </div>
+    </div>
+    <h1 class="header">Morning Restaurant</h1>
+    <div class="main_container" id="main_container">
+      <div class="container">
+        <div class="food">
+          <img src="img/mote_hin_khar.jpg" alt="" />
+          <p>mote hin khar</p>
+          <p>Price : 1500kyat</p>
+          <button onclick="addToCart(this);">Add to Cart</button>
+        </div>
+        <div class="food">
+          <img src="img/shan_noodle.jpg" alt="" />
+          <p>shan noodle with tofu</p>
+          <p>Price : 1500kyat</p>
+          <button onclick="addToCart(this);">Add to Cart</button>
+        </div>
+        <div class="food">
+          <img src="img/mee_shei.jpg" alt="" />
+          <p>mee shei</p>
+          <p>Price : 2000kyat</p>
+          <button onclick="addToCart(this);">Add to Cart</button>
+        </div>
+        <div class="food">
+          <img src="img/mote ti.jpg" alt="" />
+          <p>mote ti</p>
+          <p>Price : 1500kyat</p>
+          <button onclick="addToCart(this);">Add to Cart</button>
+        </div>
+        <div class="food">
+          <img src="img/r_pu_shar_pu.jpg" alt="" />
+          <p>r pu shar pu</p>
+          <p>Price : 1500kyat</p>
+          <button onclick="addToCart(this);">Add to Cart</button>
+        </div>
+      </div>
+      <div class="container">
+        <div class="food">
+          <img src="img/spicy_chicken.jpg" alt="" />
+          <p>spicy chicken</p>
+          <p>Price : 5000kyat</p>
+          <button onclick="addToCart(this);">Add to Cart</button>
+        </div>
+        <div class="food">
+          <img src="img/baked_fish.jpg" alt="" />
+          <p>baked_fish</p>
+          <p>Price : 9000kyat</p>
+          <button onclick="addToCart(this);">Add to Cart</button>
+        </div>
+        <div class="food">
+          <img src="img/dan_pouk.jpg" alt="" />
+          <p>dan pouk</p>
+          <p>Price : 5000kyat</p>
+          <button onclick="addToCart(this);">Add to Cart</button>
+        </div>
+        <div class="food">
+          <img src="img/beef_steak.jpg" alt="" />
+          <p>beef steak</p>
+          <p>Price : 15000kyat</p>
+          <button onclick="addToCart(this);">Add to Cart</button>
+        </div>
+        <div class="food">
+          <img src="img/chicken_rice.jpg" alt="" />
+          <p>chicken rice</p>
+          <p>Price : 4000kyat</p>
+          <button onclick="addToCart(this);">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
